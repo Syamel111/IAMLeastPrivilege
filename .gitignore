@@ -1,0 +1,21 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+crash.log
+*.log
+*.tfvars
+
+# Lambda build artifacts
+lambda_module/lambda.zip
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# OS junk
+.DS_Store
+Thumbs.db
